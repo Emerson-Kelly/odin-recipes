@@ -1,0 +1,89 @@
+body { font-size: 106%; }
+
+* {
+    line-height: 1.8;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.recipehp {
+    margin-left: 28%;
+    margin-right: 28%;
+}
+
+@media only screen and (max-width: 600px) {
+    .recipehp {
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+}
+
+.recipelp {
+    margin-left: 18%;
+    margin-right: 18%;
+}
+
+@media only screen and (max-width: 600px) {
+    .recipelp {
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+}
+
+.heroimg.rs {
+    width: 64%;
+}
+
+@media only screen and (max-width: 600px) {
+    .heroimg.rs {
+        width: 100%;
+    }
+}
+
+.recipelist {
+    text-align: center;
+}
+
+ul.recipeUL {
+    display: inline-block;
+    text-align: left;
+    margin-right: 2.4rem;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+a {
+    color: #038aff;
+}
+
+.heroimg.hp {
+    width: 20%;
+    margin-bottom: -1.8%;
+}
+
+@media only screen and (max-width: 600px) {
+    .heroimg.hp {
+        width: 70%;
+    }
+}
+
+.heroimg.tacos{
+    width: 64%;
+}
+
+@media only screen and (max-width: 600px) {
+    .heroimg.tacos {
+        width: 100%;
+    }
+}
+
+.heroimg.sb{
+    width: 64%;
+}
+
+@media only screen and (max-width: 600px) {
+    .heroimg.sb {
+        width: 100%;
+    }
+}
